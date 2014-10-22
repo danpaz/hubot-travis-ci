@@ -1,7 +1,7 @@
 {
   "name": "hubot-travis-ci",
   "description": "Hubot script for interacting with Travis CI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Daniel Paz-Soldan <daniel.pazsoldan@gmail.com>",
   "license": "MIT",
 
