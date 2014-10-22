@@ -1,0 +1,38 @@
+{
+  "name": "hubot-travis-ci",
+  "description": "Hubot script for interacting with Travis CI",
+  "version": "0.0.1",
+  "author": "Daniel Paz-Soldan <daniel.pazsoldan@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danpaz/hubot-travis-ci.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/danpaz/hubot-travis-ci/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
