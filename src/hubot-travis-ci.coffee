@@ -30,8 +30,8 @@ CANCEL_MSG        = 'Build has been successfully cancelled.'
 
 module.exports = (robot) ->
 
-  # unless apiToken?
-  #   robot.logger.warning TOKEN_MISSING_MSG
+  unless apiToken?
+    robot.logger.warning TOKEN_MISSING_MSG
 
   # @param   opts   [Object]   Options.
   # @option  url    [String]   Request URL.
